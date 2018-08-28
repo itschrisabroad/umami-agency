@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  build:
+    command: npm run build
+    image: 68696c6c/gatsby-overscroll-dev
+    volumes:
+      - ./:/site
+    working_dir: /site
